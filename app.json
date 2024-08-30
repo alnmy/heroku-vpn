@@ -18,7 +18,7 @@
         },
         "TAILSCALE_HOSTNAME": {
           "description": "Tailscale hostname to advertise this device as",
-          "required": "false"
+          "required": "true"
         }
     }
 }
