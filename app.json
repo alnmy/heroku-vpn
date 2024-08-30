@@ -15,6 +15,10 @@
         "TAILSCALE_AUTHKEY": {
           "description": "Tailscale pre-authentication key to be used for non-interactive login.",
           "required": "true"
+        },
+        "TAILSCALE_HOSTNAME": {
+          "description": "Tailscale hostname to advertise this device as",
+          "required": "false"
         }
     }
 }
